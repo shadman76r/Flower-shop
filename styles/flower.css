@@ -18,6 +18,9 @@
     "wdth" 100;
 }
 /* head section */
+.head{
+    margin-bottom: 120px;
+}
 /* navigation bar */
 nav{
     max-width: 1140px;
@@ -25,6 +28,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 120px;
 }
 
 nav ul{
@@ -54,13 +58,47 @@ nav ul li a{
 .us a{
     color: #8987A1;
 }
+.header-container{
+    display: flex;
+    max-width: 1140px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.hero-title{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.hero-discription{
+    font-size: 1.38rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
 
 
 /* responsive */
 @media screen and (max-width:576px) {
+    nav{
+        margin-bottom: 28px;
+    }
     .home, .shop, .us{
         display: none;
     }
+    .header-container{
+        flex-direction: column-reverse;
+    }
+    .hero-title{
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .hero-discription{
+        font-size: 0.88rem;
+        font-weight: 400;
+    }
+    .hero-image{
+        width: 100%;
+    }
+
 
 
     
