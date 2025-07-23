@@ -129,6 +129,33 @@ nav ul li a{
     border: none;
 }
 
+/* Flower plant  */
+.flower-detail-container{
+    max-width: 540px;
+    max-height: 521px;
+}
+.flower-container{
+    display: flex;
+    max-width: 1140px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 210px;
+}
+.flower-title{
+    font-size: 3.13rem;
+}
+.unorder-list-flower{
+    display: grid;
+    gap: 20px;
+}
+.flower-list{
+    margin-right: 30px;
+    padding-right: 100px;
+    max-height: 108px;
+    color: rgba(0, 0, 0, 0.5);
+}
 /* responsive */
 @media screen and (max-width:576px) {
     nav{
@@ -157,10 +184,23 @@ nav ul li a{
     }
     .cart-lists{
         grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
         gap: 20px;      
     }
     .cart-img{
         width: 100%;
+    }
+
+    /* another section flower */
+
+    .flower-container{
+        flex-direction: column;
+    }
+    .collector{
+        width: 100%;
+    }
+    .flower-list{
+        padding-right: 10px;
     }
 
 
