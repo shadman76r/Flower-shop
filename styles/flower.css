@@ -130,9 +130,15 @@ nav ul li a{
 }
 
 /* Flower plant  */
+.flower-section{
+    margin-bottom: 133.38px;
+}
 .flower-detail-container{
     max-width: 540px;
-    max-height: 521px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .flower-container{
     display: flex;
@@ -142,6 +148,7 @@ nav ul li a{
     justify-content: space-between;
     margin: 0 auto;
     margin-top: 210px;
+    position: relative;
 }
 .flower-title{
     font-size: 3.13rem;
@@ -155,6 +162,18 @@ nav ul li a{
     padding-right: 100px;
     max-height: 108px;
     color: rgba(0, 0, 0, 0.5);
+}
+.badge{
+    display: inline-block;
+    width: 286px;
+    position: absolute;
+    left: 347px;
+    bottom: 438px;
+    /* box-shadow: -4px 10px 4px rgba(0, 0, 0, 0.25); */
+    
+}
+.collector{
+    position: relative;
 }
 /* responsive */
 @media screen and (max-width:576px) {
@@ -201,6 +220,9 @@ nav ul li a{
     }
     .flower-list{
         padding-right: 10px;
+    }
+    .badge{
+        display: none;
     }
 
 
