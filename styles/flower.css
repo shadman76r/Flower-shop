@@ -188,25 +188,31 @@ nav ul li a{
 .boom-ana-zaba{
     display: flex;
     gap: 28px;
+    margin-top: 120px;
+    justify-items: center;
+    margin-bottom: 120px;
 }
 .boom{
     background-image: linear-gradient(rgba(0, 0, 0, 0.4)) , url(../assets/deal-bloom.png) ;
+    background-size: cover;
     max-width: 366.22px;
-    max-height: 209px;
+    /* max-height: 209px; */
     background-repeat: no-repeat;
     border-radius: 14px;
 }
 .ana{
      background-image: linear-gradient(rgba(0, 0, 0, 0.4)) , url(../assets/deal-ana.png) ;
+     background-size: cover;
     max-width: 366.22px;
-    max-height: 209px;
+    /* max-height: 209px; */
     background-repeat: no-repeat;
     border-radius: 14px;
 }
 .zaba{
   background-image: linear-gradient(rgba(0, 0, 0, 0.4)) , url(../assets/deal-zabo.png) ;
+  background-size: cover;
     max-width: 753px;
-    max-height: 423.13px;
+    /* max-height: 423.13px; */
     background-repeat: no-repeat;
     border-radius: 22px;  
 }
@@ -229,7 +235,7 @@ nav ul li a{
     /* align-items: center;
     justify-items: center; */
     text-align: center;
-    padding: 100px; 
+    padding: 100px 128px; 
 }
 .zaba-title{
     font-size: 3.125rem;
@@ -240,6 +246,41 @@ nav ul li a{
     font-size: 1.75rem;
     font-weight: 600;
     color: white;
+}
+
+/* joining part */
+.join-containe{
+    background-image: url(../assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+.join{
+    padding: 199px 305px 192px 305px;
+    text-align: center;
+}
+
+.join-title{
+    font-size: 4.25rem;
+    font-weight: 700;
+    color: white;
+}
+.input-text{
+    background-color: white;
+    width: 644px;
+    height: 50px;
+    padding-left: 20px;
+    border: none;
+}
+/* this is one minus px here for margin */
+.btn-join{
+    margin-left: -5.5px;
+    padding: 19px 53.5px;
+    background-color: #E95A08;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
 }
 
 /* responsive */
@@ -276,6 +317,10 @@ nav ul li a{
     .cart-img{
         width: 100%;
     }
+    /* i can remove it if needed */
+    .btn-primary{
+        width: 100%;
+    }
 
     /* another section flower */
 
@@ -291,7 +336,16 @@ nav ul li a{
     .badge{
         display: none;
     }
-
+    /* latest part */
+    .boom-ana-zaba{
+        flex-direction: column;
+        width: 100%;
+    }
+    .boom-ana{
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+    }
 
     
 }
