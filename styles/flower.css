@@ -249,6 +249,7 @@ nav ul li a{
 }
 
 /* joining part */
+
 .join-containe{
     background-image: url(../assets/news-letter-bg.png);
     background-repeat: no-repeat;
@@ -282,6 +283,10 @@ nav ul li a{
     font-weight: 600;
     border: none;
 }
+
+/* footer part */
+
+
 
 /* responsive */
 @media screen and (max-width:576px) {
