@@ -175,6 +175,73 @@ nav ul li a{
 .collector{
     position: relative;
 }
+
+/* latest deal */
+.latest-dea-section{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.boom-ana{
+    display: grid;
+    gap: 26px;
+}
+.boom-ana-zaba{
+    display: flex;
+    gap: 28px;
+}
+.boom{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)) , url(../assets/deal-bloom.png) ;
+    max-width: 366.22px;
+    max-height: 209px;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+}
+.ana{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.4)) , url(../assets/deal-ana.png) ;
+    max-width: 366.22px;
+    max-height: 209px;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+}
+.zaba{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)) , url(../assets/deal-zabo.png) ;
+    max-width: 753px;
+    max-height: 423.13px;
+    background-repeat: no-repeat;
+    border-radius: 22px;  
+}
+.boom-container{
+    /* align-items: center;
+    justify-items: center; */
+    text-align: center;
+    padding: 60px;
+}
+.Bloom-title{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+}
+.bloom-link{
+    font-weight: 600;
+    color: white;
+}
+.zaba-container-text{
+    /* align-items: center;
+    justify-items: center; */
+    text-align: center;
+    padding: 100px; 
+}
+.zaba-title{
+    font-size: 3.125rem;
+    font-weight: 700;
+    color: white;
+}
+.zaba-link{
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: white;
+}
+
 /* responsive */
 @media screen and (max-width:576px) {
     nav{
