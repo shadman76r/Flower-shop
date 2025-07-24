@@ -292,7 +292,26 @@ nav ul li a{
 }
 
 /* footer part */
+.footer-section{
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 
+}
+.footer-first-link{
+    display: grid;
+}
+.footer-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 110px;
+}
 
 
 /* responsive */
@@ -379,6 +398,9 @@ nav ul li a{
         padding: 19px 12px;
         font-size: 1rem ;
     }
+
+    /* footer section */
+    
 
     
 }
