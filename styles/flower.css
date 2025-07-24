@@ -266,6 +266,13 @@ nav ul li a{
     font-weight: 700;
     color: white;
 }
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23px;
+    gap: 0;
+}
 .input-text{
     background-color: white;
     width: 644px;
@@ -275,13 +282,13 @@ nav ul li a{
 }
 /* this is one minus px here for margin */
 .btn-join{
-    margin-left: -5.5px;
     padding: 19px 53.5px;
     background-color: #E95A08;
     color: white;
     font-size: 1rem;
     font-weight: 600;
     border: none;
+    white-space: nowrap;
 }
 
 /* footer part */
@@ -350,6 +357,27 @@ nav ul li a{
         justify-items: center;
         align-items: center;
         width: 100%;
+    }
+
+    /* joining part */
+    .join{
+       padding: 65px 30px; 
+    }
+    .join-title{
+        font-size: 1.25rem;
+    }
+    .form-container{
+        flex-direction: row;
+        width: 100%;
+    }
+    .input-text{
+        width: 55%;
+        
+    }
+    .btn-join{
+        width: 45%;
+        padding: 19px 12px;
+        font-size: 1rem ;
     }
 
     
