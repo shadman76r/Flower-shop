@@ -149,7 +149,7 @@
                     <div class="form-container">
                     
                     <input type="text" name="" id="" class="input-text inter-normal" placeholder="Write email">
-                    <button class="btn-join inter-normal">Subscribe</button>
+                    <button onclick="mail()" class="btn-join inter-normal">Subscribe</button>
                     
                     </div>
                 </div>
@@ -178,10 +178,10 @@
             <a href="">Help Center</a>
         </div>
         <div class="footer-img">
-            <img src="./assets/icon-linkedin.png" alt="">
-            <img src="./assets/icon-twitter.png" alt="">
-            <img src="./assets/icon-facebook.png" alt="">
-            <img src="./assets/icon-youtube.png" alt="">                   
+            <img src="./assets/icon-linkedin.png" alt="" class="in">
+            <img src="./assets/icon-twitter.png" alt="" style="padding-top: 8px;">
+            <img src="./assets/icon-facebook.png" alt="" class="f">
+            <img src="./assets/icon-youtube.png" alt="" class="y">                   
             
         </div>       
         </div>
@@ -192,6 +192,9 @@
      <script>
         function buy(){
             alert("Flower Added to Cart")
+        }
+        function mail(){
+            alert("Your mail send")
         }
      </script>
 </body>
